@@ -19,6 +19,3 @@ instance Shape Rectangle where
 
 instance Shape Circle where
     area (Circle _ r) = pi * r ^ 2
-
--- bigger :: (Shape a) => a -> a -> a
--- bigger x y = if (area x) > (area y) then x else y
