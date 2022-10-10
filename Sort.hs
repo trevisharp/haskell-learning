@@ -1,3 +1,6 @@
+module Sort (mergesort)
+    where
+
 merge :: (Ord a) => [a] -> [a] -> [a]
 merge [] [] = []
 merge (x:xs) [] = (x:xs)
